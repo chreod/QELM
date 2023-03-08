@@ -3,9 +3,9 @@
 This repository is for the QOSF mentorship application. `notebook.ipynb` implements a very simple function for generating random Perceval photonic circuits.
 
 The goal of the notebook is to implement the following steps to generate a quantum circuit:
-    1. Generate a random diagram in the ZX calculus using PyZX.
-    2. Export the ZX circuit in the QASM format and load as a Qiskit circuit.
-    3. Convert the Qiskit circuit into a Perceval linear optics circuit.
+- Generate a random diagram in the ZX calculus using PyZX.
+- Export the ZX circuit in the QASM format and load as a Qiskit circuit.
+- Convert the Qiskit circuit into a Perceval linear optics circuit.
    
 
 The ZX calculus has recently been used to natively represent quantum linear optics protocols [1]. This notebook is a current workaround that converts a ZX diagram into a Perceval circuit using QASM and Qiskit as an intermediary.  The category theoretic approach in [1] will allow a direct translation of ZX diagrams into Perceval circuits.
